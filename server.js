@@ -8,7 +8,7 @@ const authMiddleware = require('./middleware/auth');
 
 const app = express();
 app.use(cors({
-    origin: 'https://frontend-task-32.vercel.app/', // Replace with your frontend URL
+    origin: 'https://frontend-task-32.vercel.app', // Replace with your frontend URL
     methods: ['GET', 'POST'],
     credentials: true,
 }));
